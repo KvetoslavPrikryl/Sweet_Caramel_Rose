@@ -1,0 +1,23 @@
+.header{
+    width: 200px;
+    height: 100vh;
+    padding: 20px;
+    background: transparent;
+}
+.header a{
+    text-decoration: none;
+}
+.header ul{
+    list-style-type: none;
+}
+.header li{
+    width: 150px;
+    height: 100px;
+    background: yellow;
+    text-align: center;
+    margin-bottom: 50px;
+    border: 1px solid white;
+}
+.header h1{
+    margin-bottom: 50px;
+}
