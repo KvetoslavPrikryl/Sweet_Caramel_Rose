@@ -1,11 +1,16 @@
-import React from 'react'
+import React from 'react';
 import "./HeroImgStyles.css";
-import Dog1 from "../img/Dog1.jpg"
+import Dog1 from "../img/Dog1.jpg";
 
 const HeroImg = () => {
   return (
-    <div>
-        <img src={Dog1} alt="Dog_img" />
+    <div className='mask'>
+      <div className='img'>
+        <img className='dogImg' src={Dog1} alt="Dog_img" />
+      </div>
+      <div className='content'>
+        <h1>Výtejte na stránce <span className='logoName'>Sweet Caramel Rose</span></h1>
+      </div>
     </div>
   )
 }

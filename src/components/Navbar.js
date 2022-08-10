@@ -7,13 +7,13 @@ const Navbar = () => {
     <div className='header'>
         <ul>
             <li>
-            <Link to="/">Domu</Link>
+            <Link to="/"><button className="btn">Domu</button></Link>
             </li>
             <li>
-                <Link to="/Chovatelska_stanice">Chovatelska stanice</Link>
+                <Link to="/Chovatelska_stanice"> <button className='btn'>Chovatelska stanice</button></Link>
             </li>
             <li>
-                <Link to="/strihani">Stříhání</Link>
+            <Link to="/strihani"><button className="btn">Stříhání</button></Link>
             </li>
         </ul>
     </div>
