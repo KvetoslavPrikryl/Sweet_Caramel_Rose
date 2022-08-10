@@ -3,7 +3,7 @@ import "./FooterStyles.css";
 
 const Footer = () => {
   return (
-    <div className='container'>
+    <div className='footer-container'>
         <div className='cont-left'>
             <h3>Kontakt</h3>
         </div>

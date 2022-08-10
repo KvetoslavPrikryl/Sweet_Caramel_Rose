@@ -14,21 +14,21 @@
     position: absolute;
     top: 50px;
     left: 100px;
-    width:100%;
+    width:90%;
 }
 .mask .content h1{
     color: white;
     
 }
 .mask .content h1 .logoName{
-    color: rgba(231,110,46,255);
+    color:rgba(231,110,46,255) ;
     position: absolute;
     top: 70px;
     left: 30px;
     font-size: 3rem;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:640px) {
     .mask .content{
         top: 20px;
         left:10px;
