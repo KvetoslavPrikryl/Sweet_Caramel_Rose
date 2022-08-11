@@ -10,17 +10,12 @@
     padding: 2rem;
     display: flex;
 }
-.about-container .about-cont .about-left{
+.about-container .about-cont .about-text{
     height:100%;
-    width:45%;
+    width:50%;
     margin: auto;
 }
-.about-container .about-cont .about-right{
-    height:100%;
-    width:45%;
-    margin: auto;
-}
-.about-container .about-cont .about-left h2{
+.about-container .about-cont .about-text h2{
     margin-bottom: 2rem;
     color: rgba(231,110,46,255);
 }
