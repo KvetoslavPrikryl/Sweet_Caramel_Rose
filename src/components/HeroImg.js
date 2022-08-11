@@ -9,7 +9,7 @@ const HeroImg = () => {
         <img className='dogImg' src={Dog1} alt="Dog_img" />
       </div>
       <div className='content'>
-        <h1>Výtejte na stránce <span className='logoName'>Sweet Caramel Rose</span></h1>
+        <h1>Vítejte na stránce <span className='logoName'>Sweet Caramel Rose</span></h1>
       </div>
     </div>
   )
