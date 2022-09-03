@@ -1,8 +1,33 @@
-.img{
+.kennel-container{
     width:100%;
     height:100vh;
+}
+.img{
+    width:100%;
+    height:100%;
     background-image: url("../img/Dog2.jpg");
     background-size: cover;
     background-position: center;
     object-fit: cover;
+}
+.kennel-content{
+    position: absolute;
+    width:80%;
+    left:10%;
+    top: 20%;
+}
+.kennel-dog{
+    width: 50%;
+    float: left;
+}
+.kennel-text{
+    text-align: center;
+}
+@media screen and (max-width: 1000px){
+    .kennel-content{
+        left:0;
+    }
+    .kennel-dog{
+        width: 100%;
+    }
 }
