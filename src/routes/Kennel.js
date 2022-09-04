@@ -6,8 +6,8 @@ import KennelImg from '../components/KennelImg';
 const Kennel = () => {
   return (
     <div>
-        <Navbar />
         <KennelImg />
+        <Navbar />
         <Footer />
     </div>
   )

@@ -3,9 +3,10 @@
     height:100%;
     position: relative;
 }
-.mask .dogImg{
+.mask .img{
     width: 100%;
     height: 100vh;
+    background-image: url("../img/Dog1.jpg");
     background-size: cover;
     background-position: center;
     object-fit: cover;
@@ -15,10 +16,6 @@
     top: 50px;
     left: 100px;
     width:90%;
-}
-.mask .content h1{
-    color: white;
-    
 }
 .mask .content h1 .logoName{
     color:rgba(231,110,46,255) ;

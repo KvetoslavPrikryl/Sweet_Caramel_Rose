@@ -13,19 +13,32 @@
 .kennel-content{
     position: absolute;
     width:80%;
-    left:10%;
-    top: 20%;
+    left: 15%;
+    top: 10%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.685);
+}
+.dog{
+    width:50%;
+    float: left;
+    text-align: left;
+    padding: 0 50px 50px 50px;
+}
+
+h2{
+    color: rgba(231,110,46,255);
+    margin: 50px 0;
 }
 .kennel-dog{
     width: 50%;
     float: left;
 }
-.kennel-text{
-    text-align: center;
-}
 @media screen and (max-width: 1000px){
     .kennel-content{
         left:0;
+        text-align: center;
+        width: 100%;
+        top:10%;
     }
     .kennel-dog{
         width: 100%;

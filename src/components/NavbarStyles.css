@@ -9,12 +9,6 @@
     top: 30%;
     left: 0;
 }
-.header a{
-    text-decoration: none;
-}
-.header ul{
-    list-style-type: none;
-}
 .hamburger{
     display: none;
     position: absolute;
