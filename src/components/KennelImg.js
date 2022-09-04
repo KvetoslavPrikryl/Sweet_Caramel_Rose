@@ -6,7 +6,7 @@ const KennelImg = () => {
     <div className='kennel-container'>
         <div className='img'></div>
         <div className='kennel-content'>
-            <div>
+            <div className='kennel-dog-parents'>
                 <h2>Rodiče</h2>
                 <div className='dog'>
                     <h3>Pes</h3>
@@ -21,7 +21,7 @@ const KennelImg = () => {
             <div className='kennel-dog kennel-text' >
                 <button className='btn'>Psi</button>
                 <ul>
-                    <li>
+                    <li className='dog'>
                         <h3>Jméno psa</h3>
                         <p>Text o psovi</p>
                     </li>
@@ -30,7 +30,7 @@ const KennelImg = () => {
             <div className='kennel-bitch-dog kennel-text'>
                 <button className='btn'>Feny</button>
                 <ul>
-                    <li>
+                    <li className='dog'>
                         <h3>Jméno psa</h3>
                         <p>Text o psovi</p>
                     </li>
