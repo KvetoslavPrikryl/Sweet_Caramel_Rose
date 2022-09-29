@@ -8,8 +8,7 @@ const dogMan = [
     {name: "Jmeno 2 psa", img: "../img/Dog1.jpg", text : "Text o psovi."},
     {name: "Jmeno 3 psa", img: "../img/Dog1.jpg", text : "Text o psovi."},
     {name: "Jmeno 4 psa", img: "../img/Dog1.jpg", text : "Text o psovi."},
-
-
+    {name: "Jmeno 5 psa", img: "../img/Dog1.jpg", text : "Text o psovi."},
 ]
 
 const dogWomen = [
