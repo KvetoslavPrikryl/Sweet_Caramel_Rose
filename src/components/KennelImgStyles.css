@@ -22,11 +22,25 @@
     margin: 10px;
     padding: 10px;
     background-color: rgba(231, 111, 46, 0.4);
+    backdrop-filter: blur(3px);
+    border-radius: 25px;
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.dog-box1:hover{
+    transform: scale(1.05);
 }
 .dog-box2{
     margin: 10px;
     padding: 10px;
-    background-color: rgba(231,110,46,0.4);
+    background-color: rgba(231, 111, 46, 0.4);
+    backdrop-filter: blur(3px);
+    border-radius: 25px;
+    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
+    transition: 0.5s;
+}
+.dog-box2:hover{
+    transform: scale(1.05);
 }
 h2{
     margin-bottom: 5px;
