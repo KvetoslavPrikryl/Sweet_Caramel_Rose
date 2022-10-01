@@ -1,7 +1,28 @@
 import "./FormStyles.css"
+/*
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+*/
 import React from 'react'
 
-const Form = () => {
+
+function Form() {
+
+/* const form = useRef();
+
+const sendEmail = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm('service', 'template', form.current, 'public_key')
+    .then((result) => {
+        console.log(result.text);
+    }, 
+    (error) => {
+        console.log(error.text);
+    });
+    e.target.reset()
+};*/
+
   return (
     <div className="contactForm">
         <div className="form">
@@ -14,7 +35,7 @@ const Form = () => {
                 <input type="text"></input>
                 <label>Zpráva:</label>
                 <textarea rows="6" placeholder="Sem napiště Vaši zprávu:" />
-                <button className="btn">Odeslat</button>
+                <button className="btn formBtn">Odeslat</button>
             </form>
         </div>
     </div>

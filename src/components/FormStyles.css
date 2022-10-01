@@ -26,3 +26,11 @@
     border-color: rgba(255, 255, 255, 0.1);
     color: #f4f4f4;
 }
+.formBtn{
+    margin: auto;
+}
+@media screen and (max-width:640px) {
+    .contactForm{
+        padding-top: 50px;
+    }
+}
