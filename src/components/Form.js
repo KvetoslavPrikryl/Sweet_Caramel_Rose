@@ -28,13 +28,13 @@ const sendEmail = (e) => {
         <div className="form">
             <form>
                 <label>Vaše jméno:</label>
-                <input type="text"></input>
+                <input type="text" name="user_name"></input>
                 <label>Email:</label>
-                <input type="text"></input>
+                <input type="text" name="user_email"></input>
                 <label>Předmět:</label>
-                <input type="text"></input>
+                <input type="text" name="subject"></input>
                 <label>Zpráva:</label>
-                <textarea rows="6" placeholder="Sem napiště Vaši zprávu:" />
+                <textarea rows="6" placeholder="Sem napiště Vaši zprávu:" name="user_text"/>
                 <button className="btn formBtn">Odeslat</button>
             </form>
         </div>
