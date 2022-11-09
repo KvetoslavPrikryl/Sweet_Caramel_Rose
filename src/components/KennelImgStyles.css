@@ -2,23 +2,48 @@
     width:100%;
     min-height:100vh;
     position: relative;
-    background-image: url("../img/Dog2.jpg");
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
+    overflow: hidden;
+}
+.bg-img{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+}
+.kennel-h1{
+    color: rgb(231, 111, 46);
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-size: 3rem;
+}
+.kennel-h2{
+    position: relative;
+    top: 15px;
+    text-align: center;
+    color: rgb(231, 111, 46);
+    font-size: 45px;
 }
 .kennel-dog{
-    margin: 0 20px 20px 300px;
+    margin: 0 20px 20px 200px;
     padding-top: 100px;
     display: flex;
 }
+.hr{
+    margin: 10px 0;
+}
 .dog-man{
-    width: 50%;
+    width: 33%;
+    position: relative;
 }
 .dog-woman{
-    width: 50%;
+    width: 33%;
+    position: relative;
 }
-.dog-box1{
+.dog-childern{
+    width: 33%;
+    position: relative;
+}
+.dog-box{
     margin: 10px;
     padding: 10px;
     background-color: rgba(231, 111, 46, 0.4);
@@ -27,19 +52,7 @@
     box-shadow: 0 25px 25px rgba(0,0,0,0.5);
     transition: 0.5s;
 }
-.dog-box1:hover{
-    transform: scale(1.05);
-}
-.dog-box2{
-    margin: 10px;
-    padding: 10px;
-    background-color: rgba(231, 111, 46, 0.4);
-    backdrop-filter: blur(3px);
-    border-radius: 25px;
-    box-shadow: 0 25px 25px rgba(0,0,0,0.5);
-    transition: 0.5s;
-}
-.dog-box2:hover{
+.dog-box:hover{
     transform: scale(1.05);
 }
 h2{
@@ -48,22 +61,63 @@ h2{
 .btn-kennel{
     margin-left: 30%;
 }
-.dog-info{
+.dog-info-galery{
     display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.dog-info-img{
+    margin: 7px;
 }
 p{
     padding: 0 10px;
 }
-
-@media screen and (max-width: 1000px) {
+.dog-link{
+    position: absolute;
+    right: 5%;
+    font-size: 20px;
+    top: 10px;
+}
+@media screen and (max-width: 1400px) {
     .kennel-dog{
-        display: block;
-        margin: 0;
+        width: 80%;
+        padding-right: 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 40px;
     }
     .dog-man{
         width:100%;
     }
     .dog-woman{
         width: 100%;
+    }
+    .dog-childern{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .kennel-dog{
+        display: block;
+        margin: 0;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .kennel-dog{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .kennel-h1{
+        display: none;
+    }
+    .bg-img{
+        width: 120%;
+    }
+    .btn-kennel{
+        margin-left: 0;
     }
 }
