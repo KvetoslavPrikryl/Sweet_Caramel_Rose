@@ -5,19 +5,29 @@ const CuttingImg = () => {
   return (
     <div className='cutting-container'>
       <div className='cutting-table'>
-        <h1 className='title-cutting'>Stříhání</h1>
+        <h2 className='title-cutting-h2'>Péče o zvířata</h2>
+        <h1 className="title-cutting-h1"> U sladké růže</h1>
         <table>
           <tr>
-            <td>Stříhání:</td>
-            <td>300 Kč</td>
+            <td>Stříhání: <span className='price'>Od 350 Kč</span></td>
           </tr>
           <tr>
-            <td>Koupání:</td>
-            <td>100 Kč</td>
+            <td>Koupání: <span className='price'>Od 350 Kč</span></td>
           </tr>
           <tr>
-            <td>Stříhání + koupání:</td>
-            <td>350 Kč</td>
+            <td>Stříhání + koupání: <span className='price'>Od 350 Kč</span></td>
+          </tr>
+          <tr>
+            <td>Rozčesávání: <span className='price'>Od 350 Kč</span></td>
+          </tr>
+          <tr>
+            <td>Drápky: <span className='price'>Od 350 Kč</span></td>
+          </tr>
+          <tr> 
+            <td>Žlásky: <span className='price'>Od 350 Kč</span></td>
+          </tr>
+          <tr>
+            <td>Trimrování: <span className='price'>Od 350 Kč</span></td>
           </tr>
         </table>
       </div>

@@ -6,7 +6,8 @@ const HeroImg = () => {
     <div className='mask'>
       <div className='img'></div>
       <div className='content'>
-        <h1>Vítejte na stránce <span className='logoName'>Sweet Caramel Rose</span></h1>
+        <h2>Vítejte na stránce</h2>
+        <h1 className='logoName'>Sweet Caramel Rose</h1>
       </div>
     </div>
   )

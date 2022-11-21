@@ -24,6 +24,17 @@ ul{
 a{
   text-decoration: none;
 }
-h1,h2,h3,h4,h5,p{
+h3,h4,h5,p{
   color: white;
 }
+h1, h2{
+  color: rgba(231,110,46,255);
+  font-family: 'Dancing Script', cursive;
+}
+h1{
+  text-shadow: 2px 2px 2px white ,5px 10px 7px black;
+}
+h2{
+  letter-spacing: 3px;
+}
+

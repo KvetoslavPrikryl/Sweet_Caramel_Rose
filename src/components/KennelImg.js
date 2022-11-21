@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
 import "./KennelImgStyles.css";
-import bg_img from "../img/Dog2.jpg"
 import dog1 from "../img/Dog1.jpg";
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 const dogMan = [
     {name: "Jmeno 1 psa", img: dog1, text : "Ocenění ", link : "odkaz"},
@@ -32,7 +31,7 @@ function KennelImg () {
     const [childShow, childSetShow] = useState(false)
     return (
         <div className='kennel-container'>
-            <img src={bg_img} className='bg-img' alt='bg_img' />
+            
             <h1 className='kennel-h1'>Sweet caramel rose</h1>
             <h2 className='kennel-h2'>Naši</h2>
             <div className='kennel-dog'>

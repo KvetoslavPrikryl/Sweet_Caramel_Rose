@@ -8,7 +8,7 @@
     height: 100%;
     background-image: url("../img/Dog1.jpg");
     background-size: cover;
-    background-position: center;
+    background-position:center;
     object-fit: cover;
 }
 .mask .content{
@@ -17,13 +17,16 @@
     left: 100px;
     width:90%;
 }
-.mask .content h1 .logoName{
+.logoName{
     color:rgba(231,110,46,255) ;
     position: absolute;
     top: 70px;
     left: 30px;
-    font-size: 3rem;
-    text-shadow: 5px 10px 7px black;
+    font-size: 4rem;
+}
+h2{
+    font-size: 40px;
+    letter-spacing: 3px;
 }
 
 @media screen and (max-width:640px) {
