@@ -1,4 +1,3 @@
-import React from 'react'
 import CuttingImg from '../components/CuttingImg';
 import Footer from '../components/Footer';
 import Navbar from "../components/Navbar";

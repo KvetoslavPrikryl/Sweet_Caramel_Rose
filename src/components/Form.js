@@ -3,10 +3,9 @@ import "./FormStyles.css"
 import emailjs from '@emailjs/browser';
 import React, { useRef } from 'react';
 */
-import React from 'react'
 
 
-function Form() {
+const Form = () => {
 
 /* const form = useRef();
 

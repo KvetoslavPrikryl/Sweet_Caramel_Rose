@@ -6,6 +6,12 @@
     background-size: cover;
     background-position: center;
 }
+.log-in{
+    float: right;
+}
+.log-in-button{
+    float: right;
+}
 .kennel-h1{
     color: rgb(231, 111, 46);
     position: absolute;

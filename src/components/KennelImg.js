@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import "./KennelImgStyles.css";
 import dog1 from "../img/Dog1.jpg";
 import {Link} from "react-router-dom";
+import LogIn from './LogIn';
+
 
 const dogMan = [
     {name: "Jmeno 1 psa", img: dog1, text : "Ocenění ", link : "odkaz"},
@@ -25,13 +27,18 @@ const dogChildern = [
     {name: "Jmeno 2 psa", img: "../img/Dog1.jpg", text : "Text o psovi.", link : "odkaz"},
 ]
 
-function KennelImg () {
+const KennelImg = () => {
     const [dogShow, dogSetShow] = useState(false)
     const [bitchShow, bitchSetShow] = useState(false)
     const [childShow, childSetShow] = useState(false)
+    const [click, setClick] = useState("Přihlásit");
+    const handlerClick = () => {
+        setClick(<LogIn />)
+    }
+
     return (
         <div className='kennel-container'>
-            
+            <button className='log-in-button' onClick={handlerClick}>{click}</button>
             <h1 className='kennel-h1'>Sweet caramel rose</h1>
             <h2 className='kennel-h2'>Naši</h2>
             <div className='kennel-dog'>
